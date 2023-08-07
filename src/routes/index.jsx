@@ -22,7 +22,7 @@ import ProfileMentee from "../pages/Mentee/ProfileMentee";
 import ProfileMentor from "../pages/Mentor/ProfileMentor";
 import DetailTask from "../pages/Mentor/DetailTask";
 
-axios.defaults.baseURL = "https://ecommerce-alta.online/";
+axios.defaults.baseURL = "https://mentutor.altapro.online/";
 
 const index = () => {
   const dispatch = useDispatch();
