@@ -40,7 +40,7 @@ const HomeMentor = () => {
           dispatch(handleAuth(false));
           navigate("/");
         }
-        alert("Please re-login !");
+        // alert("Please re-login !");
       })
       .finally(() => setLoading(false));
   };
