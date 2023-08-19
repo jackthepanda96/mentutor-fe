@@ -83,7 +83,7 @@ const CardTask = (props) => {
           </span>
         </p>
 
-        {props.due_date > detailDate ? (
+        {props.due_date < detailDate ? (
           <label
             id="btn-submitTask"
             htmlFor="modal-submit-task"
@@ -92,7 +92,7 @@ const CardTask = (props) => {
           >
             Submit your task
           </label>
-        ) : props.due_date < detailDate ? (
+        ) : props.due_date > detailDate ? (
           <label className="bg-[#969696] rounded-[5px] text-black  py-1 px-3 md:py-2 md:px-4 text-[8px] md:text-[10px]">
             Submit your task
           </label>
